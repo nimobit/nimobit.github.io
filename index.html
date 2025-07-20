@@ -29,7 +29,10 @@
       margin: 20px 0;
       max-width: 700px;
       width: 100%;
-      text-align: center;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
     .project h2 {
       color: #f0db4f;
@@ -37,6 +40,9 @@
     }
     .project p {
       margin: 0 0 15px;
+    }
+    .project .content {
+      flex: 1;
     }
     a {
       color: #58a6ff;
@@ -56,6 +62,10 @@
     .button:hover {
       background-color: #2ea043;
     }
+    .logo {
+      width: 240px;
+      border-radius: 10px;
+    }
     footer {
       margin-top: 50px;
       font-size: 0.9em;
@@ -66,15 +76,17 @@
 <body>
   <h1>Nimobit Developer Projects</h1>
 
-  <div class="project">
-    <h2>GitHub Good First Issue Bot</h2>
+<div class="project">
+  <img src="fbee-logo.png" alt="Fbee Bot Logo" class="logo">
+  <div class="content">
+    <h2>Fbee Bot 🐝</h2>
     <p>
-      A bot designed to help new contributors easily discover <strong>"good first issues"</strong> across GitHub open source projects. It explores, filters, and sorts issues based on comments, creation date, repository stars, and more.
+      A bot designed to help new contributors easily discover <strong>"good first issues"</strong> across GitHub open source projects. 
+      Fbee Bot explores, filters, and sorts issues based on comments, creation date, repository stars, and more — to help you land your first contribution.
     </p>
-    <a href="https://github.com/nimobit/github-good-first-issue-bot" class="button" target="_blank">View on GitHub</a>
+    <a href="https://github.com/nimobit/fbee-bot" class="button" target="_blank">View on GitHub</a>
   </div>
-
-  <!-- Add more project blocks here -->
+</div>
 
   <footer>
     &copy; 2025 - Nimobit
