@@ -3,14 +3,27 @@
 Hello World  
 This repository hosts the landing page for Nimobit's developer projects, published at:
 
-👉 <a href="https://nimobit.github.io" target="_blank">
-https://nimobit.github.io
-</a>
+👉 [https://nimobit.github.io](https://nimobit.github.io)
 
-🔧 **Projects featured:**
+---
 
-+ **Fbee Bot** – A tool to help new contributors discover beginner-friendly open issues on GitHub.    
-<img src="fbee-bot.png" alt="fbee bot logo" height="24" style="vertical-align: middle; margin-right: 6px;" />
+## 🛠️ Projects featured:
 
+<table>
+  <tr>
+    <td style="width:160px">
+      <img src="fbee-bot.png" alt="Fbee Bot Logo" width="140" style="border-radius: 10px;">
+    </td>
+    <td>
+      <strong>Fbee Bot 🐝</strong>  
+      <br>
+      A tool to help new contributors discover beginner-friendly open issues on GitHub.  
+      <br><br>
+      🔗 [View project on GitHub »](https://github.com/nimobit/fbee-bot)
+    </td>
+  </tr>
+</table>
+
+---
 
 More projects coming soon.
